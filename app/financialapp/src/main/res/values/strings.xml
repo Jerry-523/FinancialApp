@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Personal Finance App</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="dashboard_title">Personal Finance Dashboard</string>
+    <string name="add_transaction">Add Transaction</string>
+</resources>
