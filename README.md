@@ -1,3 +1,3 @@
 ## Financial App
 
-![ic_launcher](https://github.com/user-attachments/assets/edba2e5e-38a8-4966-a1c2-7e7aea8616b9)
+![Screenshot at 2025-01-01 15-11-45](https://github.com/user-attachments/assets/bb2aea0a-68d0-42a7-b4cc-8bee352c46ec)
