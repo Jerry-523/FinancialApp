@@ -9,3 +9,4 @@
 - [x] **Login and Register**
 - [ ] **Implement Dashboard**
 - [ ] **Implement Transactions**
+- [ ] **Upgrade Design**
