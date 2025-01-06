@@ -2,36 +2,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:padding="16dp">
+
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/usernameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
-        android:inputType="text"
-        android:padding="10dp" />
+        android:hint="Username" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="10dp" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginTop="16dp" />
+        android:text="Login" />
 
-    <Button
-        android:id="@+id/registerButton"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:layout_marginTop="8dp" />
+        android:text="Don't have an account? Register here"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:paddingTop="16dp" />
+
+
 </LinearLayout>

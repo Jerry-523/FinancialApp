@@ -42,8 +42,13 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     implementation(libs.mpandroidchart)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("androidx.room:room-runtime:2.5.1")
+    annotationProcessor ("androidx.room:room-compiler:2.5.1")
+
+
 }
