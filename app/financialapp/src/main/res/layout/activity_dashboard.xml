@@ -8,25 +8,16 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dashboard"
+        android:text="Saldo Total: "
         android:textSize="18sp"
         android:textStyle="bold"
-        android:gravity="center"
         android:layout_marginBottom="16dp" />
-
-    <TextView
-        android:id="@+id/totalLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Saldo Actual:"
-        android:textSize="16sp"
-        android:layout_marginBottom="8dp" />
 
     <TextView
         android:id="@+id/incomeLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total de Receitas:"
+        android:text="Total de Receitas: "
         android:textSize="16sp"
         android:layout_marginBottom="8dp" />
 
@@ -34,13 +25,33 @@
         android:id="@+id/expenseLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total de Despesas"
+        android:text="Total de Despesas: "
         android:textSize="16sp"
         android:layout_marginBottom="16dp" />
 
+    <com.mobile.financialapp.CustomPieChartView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="216dp" />
+
     <Button
-        android:id="@+id/addDataButton"
+        android:id="@+id/addReceitaBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Transaction" />
+        android:background="@color/green"
+        android:text="Adicionar Receita" />
+
+    <Button
+        android:id="@+id/addDespesaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:text="Adicionar Despesa" />
+
+    <Button
+        android:id="@+id/ReadTrxBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="Ver Transações" />
 </LinearLayout>
