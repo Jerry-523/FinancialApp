@@ -8,6 +8,6 @@
 
 - [x] **Implement SQLite3 Database**
 - [x] **Login and Register**
-- [ ] **Implement Dashboard (using MPAndroidChart)**
+- [x] **Implement Dashboard (using MPAndroidChart)**
 - [ ] **Implement Transactions**
 - [ ] **Upgrade Design**
