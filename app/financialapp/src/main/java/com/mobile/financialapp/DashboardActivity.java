@@ -23,10 +23,10 @@ public class DashboardActivity extends AppCompatActivity {
 
     private BarChart barChart;
     private TextView totalReceitaText, totalDespesaText, saldoText;
-    private float totalReceitas = 0; // Inicialização zero para receber valores dinamicamente
+    private float totalReceitas = 0;
     private float totalDespesas = 0;
 
-    // Simulação de valores de exemplo para a base de dados
+
     private float mockReceitasFromDB = 500;
     private float mockDespesasFromDB = 300;
 
@@ -80,8 +80,6 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     private void fetchDataFromDB() {
-        // Aqui você faria a chamada à base de dados para buscar os valores reais
-        // Por enquanto, estamos usando valores mock
         totalReceitas = mockReceitasFromDB;
         totalDespesas = mockDespesasFromDB;
     }
